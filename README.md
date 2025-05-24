@@ -57,11 +57,11 @@
 5. Open your browser and visit: http://localhost:3000
 
 🌐 Live Demo
-Render: https://geodive.onrender.com
+- Render: https://geodive.onrender.com
 
 🧠 Credits
 * Data from REST Countries API - [REST Countries API](https://restcountries.com)
 * Built with ❤️ using Node, Express, Axios, and EJS
 
 📜 License
-This project is open source and available under the MIT License.
+- This project is open source and available under the MIT License.
