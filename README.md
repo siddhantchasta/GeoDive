@@ -41,7 +41,7 @@
 
 1. Clone the repository:  
    ```bash
-   git clone [<repository-url>](https://github.com/siddhantchasta/GeoDive.git)
+   git clone https://github.com/siddhantchasta/GeoDive.git
 2. Navigate to the project directory (e.g., CapstoneProject):
    ```bash
     cd CapstoneProject
@@ -55,6 +55,9 @@
    ```bash
     node index.js
 5. Open your browser and visit: http://localhost:3000
+
+🌐 Live Demo
+Render: https://geodive.onrender.com
 
 🧠 Credits
 * Data from REST Countries API - [REST Countries API](https://restcountries.com)
