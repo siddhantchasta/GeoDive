@@ -1,0 +1,148 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f6f1e7;
+  color: #2b2b2b;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.background-overlay {
+  background-image: url('/images/world-culture-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  filter: brightness(0.85) sepia(0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.navbar {
+  background-color: transparent !important;
+  border: none;
+  padding-top: 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.2rem;
+}
+.navbar .nav-link {
+  color: #2b2b2b;
+}
+.navbar .nav-link:hover {
+  color: #5e503f;
+}
+
+/* Apply background ONLY when navbar is collapsed (on small screens) */
+@media (max-width: 991.98px) {
+  .navbar-collapse {
+    background-color: rgba(255, 255, 255, 0.88);
+    backdrop-filter: blur(6px);
+    border-radius: 0 0 12px 12px;
+    padding: 1rem;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.intro-banner {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(4px);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+}
+
+.card {
+  background-image: url('/images/paper-texture.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  border: 2px solid #d4a373;
+  border-radius: 14px;
+  color: #2b2b2b;
+  padding: 1rem;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.15);
+}
+.card-title {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+.btn-outline-warning {
+  border-color: #d4a373;
+  color: #5e503f;
+}
+
+.btn-outline-warning:hover {
+  background-color: #d4a373;
+  color: white;
+}
+
+.input-group .form-select, .input-group .form-control {
+  background-color: #fff8ef;
+  border: 1px solid #d4a373;
+  border-radius: 0.5rem;
+  color: #5e503f;
+}
+.input-group .form-control::placeholder {
+  color: #8b7a6a;
+}
+
+
+.btn-outline-dark {
+  border-color: #d4a373;
+  color: #5e503f;
+}
+.btn-outline-dark:hover {
+  background-color: #d4a373;
+  color: white;
+}
+
+.flag-img {
+  width: 100px;             
+  height: 100px;            
+  object-fit: cover;        
+  object-position: center;  
+  border-radius: 0;         
+  display: block;
+  margin: 0 auto 1rem;      
+  background-color: white;
+  border: 1px solid #ccc;   
+}
+
+
+
+.map-link {
+  color: #375a7f;
+  font-weight: 600;
+  text-decoration: underline;
+  transition: color 0.2s ease, background-color 0.2s ease;
+  padding: 2px 6px;
+  border-radius: 4px;
+}
+
+.map-link:hover {
+  color: white;
+  background-color: #375a7f;
+  text-decoration: none;
+}
+
+.custom-footer {
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(5px);
+  color: #2b2b2b;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 576px) {
+  .flag-img {
+    width: 80px;
+    height: 48px;
+  }
+}
