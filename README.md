@@ -41,7 +41,7 @@
 
 1. Clone the repository:  
    ```bash
-   git clone <repository-url>
+   git clone [<repository-url>](https://github.com/siddhantchasta/GeoDive.git)
 2. Navigate to the project directory (e.g., CapstoneProject):
    ```bash
     cd CapstoneProject
