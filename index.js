@@ -32,7 +32,20 @@ app.get("/about", (req, res) => {
 // Random Country
 app.get("/random", async (req, res) => {
   try {
-    const response = await axios.get(`${BASE_URL}/all`);
+    const fields = [
+        "name",
+        "capital",
+        "flags",
+        "population",
+        "languages",
+        "region",
+        "subregion",
+        "area",
+        "maps",
+        "currencies"
+    ].join(',');
+
+    const response = await axios.get(`${BASE_URL}/all?fields=${fields}`);
     const allCountries = response.data;
 
     // Shuffle and pick 3 random countries
